@@ -1,0 +1,36 @@
+site_name: SOCRATIC
+site_description: Socratic debate notes and replies
+repo_url: https://github.com/PlebeiusGaragicus/SOCRATIC
+repo_name: PlebeiusGaragicus/SOCRATIC
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Israel:
+    - Prompt: ISRAEL/prompt.md
+    - Initial questions: ISRAEL/replies/initial-questions.md
+    - Reply: ISRAEL/replies/reply.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
