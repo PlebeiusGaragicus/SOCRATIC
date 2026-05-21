@@ -3,8 +3,7 @@ site_description: Socratic debate notes and replies
 repo_url: https://github.com/PlebeiusGaragicus/SOCRATIC
 repo_name: PlebeiusGaragicus/SOCRATIC
 
-# MkDocs requires a child of the config file; pages/ symlinks to repo-root content.
-docs_dir: pages
+docs_dir: docs
 
 theme:
   name: material
@@ -28,9 +27,9 @@ nav:
     - Argument structure: how-to-debate/references/argument-data-structure.md
     - Vibecoding example: how-to-debate/references/vibecoding-example.md
   - Israel:
-    - Prompt: ISRAEL/prompt.md
-    - Initial questions: ISRAEL/replies/initial-questions.md
-    - Reply: ISRAEL/replies/reply.md
+    - Initial prompt: ISRAEL/initial-prompt.md
+    - Initial reply: ISRAEL/initial-reply.md
+    - Questions: ISRAEL/questions.md
 
 markdown_extensions:
   - admonition
