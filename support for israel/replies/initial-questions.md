@@ -1,4 +1,4 @@
-I don’t have access to your file system, so I can’t read `/Users/satoshi/Documents/SOCRATIC/support for israel/prompt.md`. But since you’re asking for *thoughts*—and given the path’s implication about a prompt related to “support for Israel”—I’ll engage with the *idea* behind it, assuming you want to test or refine a position, argument, or prompt on this topic.
+But since you’re asking for *thoughts* about the implication of a prompt related to “support for Israel”—I’ll engage with the *idea* behind it, assuming you want to test or refine a position, argument, or prompt on this topic.
 
 Let’s treat this as a Socratic inquiry: not to affirm or deny any stance, but to stress-test the reasoning beneath it.
 

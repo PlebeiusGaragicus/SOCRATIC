@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repository Index - SOCRATIC</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+        }
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        .file-icon {
+            margin-right: 15px;
+            font-size: 18px;
+        }
+        .file-name {
+            flex-grow: 1;
+            font-weight: 500;
+            color: #333;
+            text-decoration: none;
+        }
+        .file-name:hover {
+            text-decoration: underline;
+            color: #0066cc;
+        }
+        .file-size {
+            color: #666;
+            font-size: 14px;
+            margin-right: 15px;
+            white-space: nowrap;
+        }
+        .file-type {
+            color: #999;
+            font-size: 14px;
+            text-transform: capitalize;
+        }
+        .directory .file-name::before {
+            content: "📁 ";
+        }
+        .file .file-name::before {
+            content: "📄 ";
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Repository Index</h1>
+        <p>Welcome to the SOCRATIC repository. Browse the contents below:</p>
+        
+        <ul class="file-list">
+            <li class="file-item directory">
+                <span class="file-icon">📁</span>
+                <a class="file-name" href="./.pi/">.pi</a>
+                <span class="file-size">Directory</span>
+                <span class="file-type">configuration</span>
+            </li>
+            <li class="file-item file">
+                <span class="file-icon">📄</span>
+                <a class="file-name" href="./AGENTS.md">AGENTS.md</a>
+                <span class="file-size">1 KB</span>
+                <span class="file-type">markdown</span>
+            </li>
+            <li class="file-item directory">
+                <span class="file-icon">📁</span>
+                <a class="file-name" href="./SUPPORT%20FOR%20ISRAEL/">SUPPORT FOR ISRAEL</a>
+                <span class="file-size">Directory</span>
+                <span class="file-type">content</span>
+            </li>
+        </ul>
+        
+        <div class="footer">
+            <p>Repository hosted on GitHub Pages • Last updated: May 21, 2026</p>
+        </div>
+    </div>
+</body>
+</html>
