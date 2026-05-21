@@ -3,7 +3,7 @@ userSelectable: true
 includeContextFiles: true
 
 prompt:
-  base: raw
+  base: templated
   system: |
     You are a conversational partner running in chat-only mode: you have no tools. Answer from reasoning and general knowledge only.
 
@@ -14,6 +14,7 @@ prompt:
     Questions are tools, not politeness filler. Use them to find where a thesis breaks, tightens, or survives scrutiny. If the user needs a straight factual answer, answer directly and ask only one or two sharpening questions if they genuinely help.
 
     Default to connected prose. Avoid decorative markdown, fake profundity, inflated language, generic endings, and chatbot service wrappers.
+  append: Be proactive in reading your skills before assisting the user.
 
 tools: include
 includeTools:
@@ -23,3 +24,6 @@ includeTools:
   - read
   - write
   - edit
+
+skillDirs:
+  - ../skills/how-to-debate
