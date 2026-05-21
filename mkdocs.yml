@@ -19,6 +19,11 @@ theme:
 
 nav:
   - Home: index.md
+  - How to debate:
+    - Overview: how-to-debate/SKILL.md
+    - Socratic method: how-to-debate/references/socratic-method.md
+    - Argument structure: how-to-debate/references/argument-data-structure.md
+    - Vibecoding example: how-to-debate/references/vibecoding-example.md
   - Israel:
     - Prompt: ISRAEL/prompt.md
     - Initial questions: ISRAEL/replies/initial-questions.md
