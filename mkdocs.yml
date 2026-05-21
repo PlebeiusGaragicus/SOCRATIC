@@ -3,6 +3,9 @@ site_description: Socratic debate notes and replies
 repo_url: https://github.com/PlebeiusGaragicus/SOCRATIC
 repo_name: PlebeiusGaragicus/SOCRATIC
 
+# MkDocs requires a child of the config file; pages/ symlinks to repo-root content.
+docs_dir: pages
+
 theme:
   name: material
   palette:
@@ -18,7 +21,7 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Home: index.md
+  - Home: README.md
   - How to debate:
     - Overview: how-to-debate/SKILL.md
     - Socratic method: how-to-debate/references/socratic-method.md
