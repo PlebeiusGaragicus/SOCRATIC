@@ -2,23 +2,24 @@
 
 Structured notes from Socratic debates — prompts, questions, and replies organized by topic.
 
-## Topics
-
-### [Israel](ISRAEL/initial-position.md)
-
-American support for Israel: opening position, Socratic questions, and replies.
-
-| Step | Document |
-|------|----------|
-| Position | [Initial position](ISRAEL/initial-position.md) |
-| Questions | [Initial questions](ISRAEL/initial-questions.md) |
-| Reply | [Initial reply](ISRAEL/initial-reply.md) |
+Use the sidebar to browse, or jump in below.
 
 ## How to debate
 
-Method and reference material for running a Socratic exchange:
+**Socratic Hitch** — collect messy debate notes into evidence-grounded position papers (`SocraticArgument`): definitions, supporting clauses, steelman refutations, and rebuttals.
 
-- [Overview](how-to-debate/SKILL.md)
-- [Socratic method](how-to-debate/references/socratic-method.md)
-- [Argument structure](how-to-debate/references/argument-data-structure.md)
-- [Vibecoding example](how-to-debate/references/vibecoding-example.md)
+| | |
+|---|---|
+| Skill | [How to debate](how-to-debate/SKILL.md) — workflow, markdown mapping, quality checks, and schema |
+| Example | [Vibecoding](how-to-debate/examples/vibecoding.md) — full sample argument |
+
+## Israel
+
+American support for Israel: interlocutor position, Socratic stress-test, and reply.
+
+| | |
+|---|---|
+| [Initial position](ISRAEL/initial-position.md) | Opening claims and quotes from the debate |
+| **Replies** | |
+| [Initial questions](ISRAEL/initial-questions.md) | Elenchus — stress-test terms and premises |
+| [Initial reply](ISRAEL/initial-reply.md) | Response on religion, state, and the occupation |

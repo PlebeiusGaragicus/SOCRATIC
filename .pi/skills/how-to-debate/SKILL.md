@@ -5,26 +5,18 @@ description: >-
   supporting clauses, main argument, steelman refutations, and rebuttals.
   Use when the user shares opponent quotes, a position blob, asks to think
   socratically, or wants a durable position paper in markdown.
+  Help the user to “think socratically,” stress-test a thesis, or structure an argument.
 ---
-- User pastes an interlocutor’s claims, a rough position, or debate notes.
-- User asks to “think socratically,” stress-test a thesis, or structure an argument.
-- User wants a **durable markdown document** (one side of a debate), not only chat.
-- You are assisting with topic folders under `docs/` (e.g. `ISRAEL/`).
-
 
 This project helps users collect thoughts into cogent **Socratic** arguments—evidence-based position papers that can be as sharp and well-grounded as the best public debaters, without losing intellectual honesty.
 
 **Socratic Hitch** is meant to work like a bicycle for the mind: argumentation and chain-of-thought, pulled forward by structure rather than vibes alone.
 
-
 # How to debate
 
 > `Hitch` (verb) to move (something) into a different position with a jerk
 
-**Socratic Hitch** — a bicycle for the mind on argumentation. Collect thoughts into cogent, evidence-grounded position papers (`SocraticArgument`) that can be shared, refuted, and refined. Aim for clarity and force, not ornament.
-
-## When to use this skill
-
+This skill is a bicycle for the mind on argumentation. Collect thoughts into cogent, evidence-grounded position papers (`SocraticArgument`) that can be shared, refuted, and refined. Aim for clarity and force, not ornament.
 
 ## Two modes
 

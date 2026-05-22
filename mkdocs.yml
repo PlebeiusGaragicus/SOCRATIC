@@ -33,10 +33,8 @@ nav:
   - Home: index.md
   - How to debate:
     - Skill: how-to-debate/SKILL.md
-    - References:
-      - Socratic method: how-to-debate/references/socratic-method.md
-      - Argument structure: how-to-debate/references/argument-data-structure.md
-      - Vibecoding example: how-to-debate/references/vibecoding-example.md
+    - Examples:
+      - Vibecoding: how-to-debate/examples/vibecoding.md
   - Israel:
     - Initial position: ISRAEL/initial-position.md
     - Replies:
