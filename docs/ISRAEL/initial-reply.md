@@ -1,4 +1,4 @@
-You're sharpening the metric: it's not just about civil liberties broadly, but specifically about the *relationship between religion and state*—and whether a government uses religious doctrine to justify oppression, violence against its own people, or the denial of basic freedoms like speech, conscience, or equality before the law.
+It's not just about civil liberties broadly, but specifically about the *relationship between religion and state*—and whether a government uses religious doctrine to justify oppression, violence against its own people, or the denial of basic freedoms like speech, conscience, or equality before the law.
 
 On that axis, you're right to see a vast difference between Israel and Iran—even if both have religious elements in their identity.
 
