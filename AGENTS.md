@@ -6,14 +6,11 @@ This repository is published as a **GitHub Pages** site built with [MkDocs](http
 
 | Path | Role |
 |------|------|
-| `README.md` | Symlink → `docs/index.md` (GitHub repo overview) |
+| `mkdocs.yml` | Site config, theme, and **navigation** |
 | `docs/` | All site markdown (`docs_dir` for MkDocs) |
 | `docs/index.md` | Home page (canonical) |
-| `docs/ISRAEL/` | Debate content for a topic |
 | `docs/how-to-debate/` | Symlink → `.pi/skills/how-to-debate/` (skill + references; do not duplicate) |
-| `mkdocs.yml` | Site config, theme, and **navigation** |
-| `requirements.txt` | Python deps for local builds and CI |
-| `site/` | Build output (gitignored; CI uploads this to Pages) |
+| `docs/<TOPIC>/` | Debate content for a topic |
 
 Edit markdown under `docs/` (and skills under `.pi/`). Paths in `nav:` are relative to `docs/`.
 
@@ -27,28 +24,16 @@ Whenever you **add, rename, move, or remove** a markdown file under `docs/` that
 2. If you add a new top-level item under `docs/`, add a `nav:` entry for it.
 3. Run `mkdocs build` locally to confirm the site builds without warnings.
 
-Example — after adding `docs/ISRAEL/new-section.md`, extend nav:
+Example — after adding `docs/ISRAEL/new-item.md`, extend nav:
 
 ```yaml
- - Israel:
- - Initial position: ISRAEL/initial-position.md
- - New section: ISRAEL/new-section.md
+  - Israel:
+    - Initial position: ISRAEL/initial-position.md
+    - New item: ISRAEL/new-item.md
 ```
 
 **GitHub Pages** must use **GitHub Actions** as the source (not “Deploy from branch” → `/docs`). Otherwise visitors see raw markdown with no Material theme or sidebar. The `Publish MkDocs site` workflow deploys the `site/` artifact.
 
 The **How to debate** section points at `how-to-debate/` (symlink into `.pi/skills/how-to-debate/`). New reference docs there need `nav:` entries; do not copy those files elsewhere.
 
-## Local preview
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-mkdocs serve
-```
-
-## What not to edit for the site
-
-- `site/` — generated; never commit
-- `.pi/` — agent/skill source; exposed on the site only via `docs/how-to-debate/`
+Never build `mkdocs` locally - it is only meant to be published upon code commit and sync.
