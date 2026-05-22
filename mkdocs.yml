@@ -20,7 +20,7 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - How to debate:
     - Overview: how-to-debate/SKILL.md
     - Socratic method: how-to-debate/references/socratic-method.md

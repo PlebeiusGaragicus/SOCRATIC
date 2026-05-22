@@ -6,9 +6,9 @@ This repository is published as a **GitHub Pages** site built with [MkDocs](http
 
 | Path | Role |
 |------|------|
-| `README.md` | Symlink → `docs/README.md` (GitHub repo overview) |
+| `README.md` | Symlink → `docs/index.md` (GitHub repo overview) |
 | `docs/` | All site markdown (`docs_dir` for MkDocs) |
-| `docs/README.md` | Home page |
+| `docs/index.md` | Home page (canonical) |
 | `docs/ISRAEL/` | Debate content for a topic |
 | `docs/how-to-debate/` | Symlink → `.pi/skills/how-to-debate/` (skill + references; do not duplicate) |
 | `mkdocs.yml` | Site config, theme, and **navigation** |
