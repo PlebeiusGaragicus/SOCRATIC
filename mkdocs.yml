@@ -1,5 +1,6 @@
 site_name: SOCRATIC
 site_description: Socratic debate notes and replies
+site_url: https://plebeiusgaragicus.github.io/SOCRATIC/
 repo_url: https://github.com/PlebeiusGaragicus/SOCRATIC
 repo_name: PlebeiusGaragicus/SOCRATIC
 
@@ -18,18 +19,29 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
 
 nav:
   - Home: index.md
   - How to debate:
-    - Overview: how-to-debate/SKILL.md
-    - Socratic method: how-to-debate/references/socratic-method.md
-    - Argument structure: how-to-debate/references/argument-data-structure.md
-    - Vibecoding example: how-to-debate/references/vibecoding-example.md
+    - Skill: how-to-debate/SKILL.md
+    - References:
+      - Socratic method: how-to-debate/references/socratic-method.md
+      - Argument structure: how-to-debate/references/argument-data-structure.md
+      - Vibecoding example: how-to-debate/references/vibecoding-example.md
   - Israel:
-    - Initial prompt: ISRAEL/initial-prompt.md
-    - Initial reply: ISRAEL/initial-reply.md
-    - Questions: ISRAEL/questions.md
+    - Initial position: ISRAEL/initial-position.md
+    - Replies:
+      - Initial questions: ISRAEL/initial-questions.md
+      - Initial reply: ISRAEL/initial-reply.md
 
 markdown_extensions:
   - admonition

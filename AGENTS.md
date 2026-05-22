@@ -30,10 +30,12 @@ Whenever you **add, rename, move, or remove** a markdown file under `docs/` that
 Example — after adding `docs/ISRAEL/new-section.md`, extend nav:
 
 ```yaml
-  - Israel:
-    - Initial prompt: ISRAEL/initial-prompt.md
-    - New section: ISRAEL/new-section.md
+ - Israel:
+ - Initial position: ISRAEL/initial-position.md
+ - New section: ISRAEL/new-section.md
 ```
+
+**GitHub Pages** must use **GitHub Actions** as the source (not “Deploy from branch” → `/docs`). Otherwise visitors see raw markdown with no Material theme or sidebar. The `Publish MkDocs site` workflow deploys the `site/` artifact.
 
 The **How to debate** section points at `how-to-debate/` (symlink into `.pi/skills/how-to-debate/`). New reference docs there need `nav:` entries; do not copy those files elsewhere.
 
