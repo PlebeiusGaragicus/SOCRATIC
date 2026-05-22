@@ -31,13 +31,12 @@ theme:
 
 nav:
   - Home: index.md
-  - How to debate:
-    - Skill: how-to-debate/SKILL.md
-    - Examples:
-      - Vibecoding: how-to-debate/examples/vibecoding.md
-  - Israel:
-    - Initial position: ISRAEL/initial-position.md
-    - Replies:
+  - How to debate: how-to-debate/SKILL.md
+  - Examples:
+    - Vibecoding: how-to-debate/examples/vibecoding.md
+  - Topics:
+    - Israel:
+      - Initial position: ISRAEL/initial-position.md
       - Initial questions: ISRAEL/initial-questions.md
       - Initial reply: ISRAEL/initial-reply.md
 
