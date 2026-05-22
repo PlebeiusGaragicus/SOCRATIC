@@ -39,6 +39,7 @@ nav:
       - Initial position: ISRAEL/initial-position.md
       - Initial questions: ISRAEL/initial-questions.md
       - Initial reply: ISRAEL/initial-reply.md
+      - Argument: ISRAEL/argument.md
 
 markdown_extensions:
   - admonition
