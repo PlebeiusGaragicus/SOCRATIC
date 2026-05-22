@@ -228,7 +228,6 @@ class SocraticArgument:
     refutations: Optional[List[Union[str, Clause, 'SocraticArgument']]] = None
 ```
 
-## Further reference
+## Examples
 
-- [Socratic method](./references/socratic-method.md) — project vision (short).
-- [Vibecoding example](./references/vibecoding-example.md) — full Argument markdown sample.
+- [Vibecoding](./examples/vibecoding.md) — full sample
